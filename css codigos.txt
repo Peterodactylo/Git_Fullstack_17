@@ -1,0 +1,34 @@
+style="background-color: insira cor em ingles"  --> utilizado quando fazendo-se a customização css in-line
+
+<!---->  --> utilizado para comentar
+
+<style></style>  --> tag utilizada para estabelecer o estilo de outros setores do codigo, como por exemplo, a cor de coisas ditas por uma tag específica, como a tag "a", ficando a{ color: red } (lembrete que essa chave fica embaixo, na linha de codigo)
+
+<link>  --> tag que linka 2 files, como a index e a style
+
+<link rel="">  --> rel vem de relacionamento, especificando qual tipo de relacionamento o link terá com a página
+
+height: xpx  --> o primeiro x equivale a um numero, em px (pixels)
+
+padding-top --> margem interna no topo (também existe o -left, -right e -bottom)
+
+*{}  --> o asteristico na frente significa, na tag, que está selecionando tudo
+
+.nome da class  --> colocar o . antes do nome escolhido para a class do div faz a tag referenciar essa class nas alterações que serão realizadas (exemplo: .waffles)
+
+margin: 0 é a distancia do elemento para os proximos elementos. Quando tem 2 medidas, quer dizer altura e largura. Ouseja, nada na vertical, e nada na horizontal
+
+display: flex; --> automaticamente é a tag mãe, e portanto, os que estão dentro dela vão um para o lado do outro
+
+justify-content: space between;  --> (existem outras opçãos de justify-content), dá um espaçamento entre as palavras na tag
+
+align-itens: center (existem outras posições, como baseline)  --> alinha as coisas em um espaço do local
+
+class=""  --> pode ser usado em qualquer tag, para especificar melhor na hora de estilizar no css
+
+text-decoration: none (existem outros tipos)  --> a none impede de terem decorações como underlines na palavra, mas existem outras com funções diferentes de customização para o texto
+
+text-transform: uppercase (tem outras formas, como o lowercase)  --> transforma o texto de todas as tags contidas no espaço de alguma forma, como deixar tudo maiusculo ou minusculo
+
+
+

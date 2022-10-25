@@ -1,0 +1,21 @@
+let ; --> atribuir variáveis (ex:. let num1;)
+console.log (); --> imprimir o que está entre parênteses no terminal
+cd ; --> change directory (mudar de pasta; Exemplo:. cd ER1;)
+dir --> (mostra em qual diretório você está)
+if --> se
+else --> se não (OBS:. else não tem variavel)
+else if --> se tiver mais de uma condição de se, se não
+switch (key)
+    case X:            --> o switch case é utilizado em situações em que você esta entrando em uma condicional muito grande, sem um if else bem alinhado, com muitas condicionais (OBS:. contudo, o switch case só funciona quando voce sabe o valor. Não dá para se utilizar < ou >)
+         break;
+    default:       --> equivale ao ELSE do switch case
+const --> declarar constante (variavel que não muda)
+let  --> variavel local
+var --> variavel global (variaveis grandes) aka, se você declarar uma var dentro de um bloco de código (ex:. if()), por exemplo, ele existe fora, enquanto o let só existiria dentro, portanto, o let deve ser declarado do lado de fora, e o var, tanto faz
+prompt --> pega o que o usuario digita (pede para digitar) EX:. velocidade = Numner(prompt("Digite a velocidade"))
+// --> usado para fazer comentário de 1 linha
+/* --> usado para fazer comentários de várias linhas, abrindo com /* e fechando com */
+'' ou "" --> o que está entre as aspas é uma string, um texto
+while --> while (condição){   --> laço de repetição. Pode ser utilizado como contador ou variavel de repetição. Significa "enquanto"
+                {
+%    --> verifica o resto da divisão

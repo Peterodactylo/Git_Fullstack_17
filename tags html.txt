@@ -1,0 +1,54 @@
+digitar ! logo ao entrar em uma file html dá a opção de criar logo a estrutura básica de uma página
+
+<!DOCTYPE >  --> Indica qual é o tipo de documento. Exemplo: <!DOCTYPE html>
+
+<html lang+"">  --> indica a quem está acessando seu site, qual a sua língua originl, para que possa-se sugerir uma tradução automatica
+
+<meta charset="">  --> indica qual o modelo de caracteres que utilizamos na codificação, que pode mudar de país apara país. 
+Usamos o modelo UTF-8 no brasil, mas existem diferentes, como os utilizados no japão, ou o na china, etc
+
+<html> e </html>  --> respectivamente, abre e fecha a estrutura do site. Tag de estrutura do site. No topo da hierarquia das tags, 
+ja que as tags <head> e <body> abrem e fecham dentro dela. (Inclusive, fecham da mesma mandeira, com a / antes do nome, entre chaves)
+
+<head>  --> contem informações das configurações da página (atentar a abrir e fechar a tag)
+
+<body>  --> é o corpo da página, o que vai aparecer para o usuário (atentar para abrir e fechar a tag)
+
+<meta name="">  --> responsividade (falará melhor depois)
+
+<meta http-equiv="">  --> compatibilidade com o navegador
+
+<title> e </title>  --> é o título que aparece na aba do site, quando você a abre
+
+<header e </header>  --> tag utilizada para o cabeçalho. É uma tag CONTAINER, ou seja, armazena outras coisas dentro dela, sendo editável
+
+<p>  --> tag para colocar parágrafo na página
+
+<nav>  --> tag para armazenar o nav bar (ou seja, o menu, o navegador)
+
+<section> 
+
+<img src="" alt="">  --> insere imagem, sempre inserir valores de src e alt. scr = source, serve para selecionar aonde está a imagem
+alt = alternative, que é quando a imagem não consegue ser carregada, então há um texto alternativo para essa imagem, ou para pessoas com necessidades especiais
+
+criar novo folder chamado img, para inserir as imagens que irá utilizar, tendo um source viável para a tag acima. Usar imagens svg ou png, por serem vetoriais
+
+comando "crtl+space" quando selecionando algo mostra a hierarquia na tag
+tag para inserir links
+
+<a href=""></a>  --> tag utilizada para inserir links, o destino é inserido entre as aspas do href, em forma do link. O href é a propriedade da tag <a> que nos leva a algum lugar
+
+html serve para por conteúdo na página e o css para customizar
+
+atalho p/ duplicar linhas: "shift+alt+seta para baixo"
+
+<h1></h1>  --> serve para colocar título, como quando colocamos no word
+
+<div></div>  --> tag container genérico para conteúdo de fluxo, que de certa forma não representa nada. Ele pode ser utilizado para agrupar elementos para fins de estilos (usando class ou id), ou porque eles compartilham valores de atributos, como lang
+
+alt + seta p/ cima ou p/ baixo, selecionado alguma linha ou bloco, pode movê-lo 
+
+<div class="">  --> class é utilizada para especificar cada div. O nome entre aspas é dado por quem está fazendo o codigo (tipo waffles, sla, qqr coisa) e serve para ser referenciada de forma específica quando sendo editada no css, 
+para que não seja colocada uma só estilização para todos os divs. Dessa forma, cada div teria uma class, para diferenciá-los. Podem ter mais de uma class dentro das aspas da tag class=""
+
+
