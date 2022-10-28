@@ -30,5 +30,13 @@ text-decoration: none (existem outros tipos)  --> a none impede de terem decora�
 
 text-transform: uppercase (tem outras formas, como o lowercase)  --> transforma o texto de todas as tags contidas no espaço de alguma forma, como deixar tudo maiusculo ou minusculo
 
+font-family: ;  --> escolhe um tipo de fonte para a class ou tag em questão (limitada às fontes presentes)
+p/ conseguir colocar outras fontes não imbuídas na tag fotn-family é necessário pegar o código da fonte desejada,
+e pode-se fazer isso acessando o Google Fonts, procurando a fonte desejada, clicando nela e copiando seu código em @import.
+Colocar a tag copiada em qualquer lugar do código (na 1° linha pode ser bom, por organização) e colocar o nome da fonte importada entre aspas, por exemplo: font-family: "Roboto"
+
+
+
+ 
 
 
