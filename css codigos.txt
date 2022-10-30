@@ -28,12 +28,30 @@ class=""  --> pode ser usado em qualquer tag, para especificar melhor na hora de
 
 text-decoration: none (existem outros tipos)  --> a none impede de terem decorações como underlines na palavra, mas existem outras com funções diferentes de customização para o texto
 
+text-align: ;  -->  alinha o texto em certa posição, como cima, baixo, centro, esquerda e direita
+
 text-transform: uppercase (tem outras formas, como o lowercase)  --> transforma o texto de todas as tags contidas no espaço de alguma forma, como deixar tudo maiusculo ou minusculo
 
 font-family: ;  --> escolhe um tipo de fonte para a class ou tag em questão (limitada às fontes presentes)
 p/ conseguir colocar outras fontes não imbuídas na tag fotn-family é necessário pegar o código da fonte desejada,
 e pode-se fazer isso acessando o Google Fonts, procurando a fonte desejada, clicando nela e copiando seu código em @import.
 Colocar a tag copiada em qualquer lugar do código (na 1° linha pode ser bom, por organização) e colocar o nome da fonte importada entre aspas, por exemplo: font-family: "Roboto"
+
+background-color  --> coloca uma cor de plano de fundo dentro da sessão
+
+ctrl + space mostra os arquivos que estão no projeto
+
+background-repeat: no-repeat;  --> impede o plano de fundo de se multiplicar quando retiramos o zoom
+
+display: flex; --> organiza o espaço entre o que está incluso na classe em questão
+
+flex-direction: ; --> organiza a direção em que o espaço será dividido (exemplo: flex-direction: column;)
+
+align-items: ;  --> alinha os itens da classe em algum sentido, como centro, lado esquerdo ou direito (em baixo e em cima tbm são opções)
+
+border-radius: ;  --> arredonda as bordas de um fundo com quinas retas em um certo numero de pixels (ex: border-radius: 10px;)
+
+atalho: ao criar a tag img, pode se digitar, por exemplo, img*5, para que ele automaticamente crie 5 vezes a tag
 
 
 
