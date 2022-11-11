@@ -43,6 +43,14 @@ header{
     justify-content: space-between;
 }
 
+.icone-menu{
+    height: 40px;
+}
+
+#barras{
+    display: none;
+}
+
 .banner{
     height: 602px;
     background-image: url(img/Imagem-Banner.png);
@@ -295,6 +303,10 @@ footer {
     font-size: 23px;
 }
 
+.logo-rodape{
+    align-self: flex-start;
+}
+
 @media screen and (max-width: 1200px){
     .container-grid{
         width: 85vw;
@@ -330,8 +342,4 @@ footer {
     .cabecalho{
         position: relative;
     }
-}
-
-.logo-rodape{
-    align-self: flex-start;
-}
+} 

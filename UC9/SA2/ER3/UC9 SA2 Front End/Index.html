@@ -21,6 +21,7 @@
         }
 
     </style>
+    <script src="js/script.js" defer></script>
 </head>
 
 
@@ -29,13 +30,14 @@
     <header>
         <div class="container-grid cabeçalho">
             <a href=""><img src="img/logo 1.svg" alt="Logotipo da aplicação E-Players"></a>
-            <nav class="menu">
+            <nav id="menu" class="menu">
                <a href="">Início</a> 
                <a href="login.html">Login</a> 
                <a href="">Campeonato</a> 
                <a href="">Resultados</a> 
                <a href="">Notícias</a> 
             </nav>
+            <a onclick="mostrarMenu(event)" href="" id="barras"><img class="icone-menu" src="img/barras.png" alt="ícone do menu de barras"></a>
         </div>
     </header>
 

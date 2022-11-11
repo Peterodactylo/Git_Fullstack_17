@@ -53,6 +53,16 @@ border-radius: ;  --> arredonda as bordas de um fundo com quinas retas em um cer
 
 atalho: ao criar a tag img, pode se digitar, por exemplo, img*5, para que ele automaticamente crie 5 vezes a tag
 
+vw  -->  medida relativa à view (a tela) ex: 85 vw  ==  85% da tela
+
+sites: w3schools (util, tipo o bootstrap); developet.mozilla (msm esquema)
+
+normalmente media-query é colocado no final do código por questões de design
+
+quando usando javascript, o link para a file JS fica dentro do script na file html
+
+o atributo defer é usado para que a lina que o possui seja lida depois que a pagina for carregada
+
 
 
  
