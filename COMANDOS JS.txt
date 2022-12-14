@@ -17,5 +17,5 @@ prompt --> pega o que o usuario digita (pede para digitar) EX:. velocidade = Num
 /* --> usado para fazer comentários de várias linhas, abrindo com /* e fechando com */
 '' ou "" --> o que está entre as aspas é uma string, um texto
 while --> while (condição){   --> laço de repetição. Pode ser utilizado como contador ou variavel de repetição. Significa "enquanto"
-                {
+                }
 %    --> verifica o resto da divisão

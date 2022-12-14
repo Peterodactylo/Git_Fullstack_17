@@ -53,10 +53,22 @@ header{
 
 .banner{
     height: 602px;
-    background-image: url(img/Imagem-Banner.png);
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.banner-f1{
+    background-image: url(img/Imagem-Banner.png);
+}
+
+.banner-cs{
+    background-image: url(img/Imagem-Banner-cs.png);
+}
+
+.banner-lol{
+    background-image: url(img/Imagem-Banner-lol.png);
 }
 
 .conteudo-banner h1{
@@ -337,6 +349,10 @@ footer {
 
     .menu a{
         font-size: 20px;
+    }
+
+    .menu-ativo{
+        display: flex;
     }
 
     .cabecalho{

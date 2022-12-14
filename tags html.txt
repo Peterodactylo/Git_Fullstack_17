@@ -2,7 +2,7 @@ digitar ! logo ao entrar em uma file html dá a opção de criar logo a estrutur
 
 <!DOCTYPE >  --> Indica qual é o tipo de documento. Exemplo: <!DOCTYPE html>
 
-<html lang+"">  --> indica a quem está acessando seu site, qual a sua língua originl, para que possa-se sugerir uma tradução automatica
+<html lang="">  --> indica a quem está acessando seu site, qual a sua língua original (entre as aspas), para que possa-se sugerir uma tradução automatica 
 
 <meta charset="">  --> indica qual o modelo de caracteres que utilizamos na codificação, que pode mudar de país apara país. 
 Usamos o modelo UTF-8 no brasil, mas existem diferentes, como os utilizados no japão, ou o na china, etc
